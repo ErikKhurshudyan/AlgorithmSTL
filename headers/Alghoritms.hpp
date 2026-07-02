@@ -1,5 +1,5 @@
-#ifndef SUDOKU_HPP
-#define SUDOKU_HPP
+#ifndef __FUNCTION_CPP__
+#define __FUNCTION_CPP__
 
 #include <iterator>
 
@@ -157,7 +157,6 @@ bool binary_search(ForwardIterator first, ForwardIterator last, const T& value,
 
 }  ////end
 
-
 #include "../templates/Alghoritms.cpp"
-#endif /// SUDOKU_HPP
 
+#endif /// __FUNCTION_CPP__
